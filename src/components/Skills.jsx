@@ -58,10 +58,6 @@ const Skills = () => {
               
               
               
-              
-              
-              
-              
           </div>
         </div>
     </div>
