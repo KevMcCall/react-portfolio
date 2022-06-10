@@ -4,6 +4,7 @@ import Logo from "../assets/logo.png";
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
+import Resume from '../assets/KevinMcCallResume.pdf';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -17,27 +18,27 @@ const Navbar = () => {
 
       {/* Menu */}
         <ul className= 'hidden md:flex'>
-          <li>
+          <li className='hover:text-red-600'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
           </li>
-          <li>
+          <li className='hover:text-red-600'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
           </li>
-          <li>
+          <li className='hover:text-red-600'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
           </li>
-          <li>
+          <li className='hover:text-red-600'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
           </li>
-          <li>
+          <li className='hover:text-red-600'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link></li> 
@@ -84,7 +85,7 @@ const Navbar = () => {
 
 
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'> 
-          <a className='flex justify-between items-center w-full text-gray-300' href="/"> Resume <BsFillPersonLinesFill size={30} /> </a></li>
+          <a className='flex justify-between items-center w-full text-gray-300' href={Resume} download> Resume <BsFillPersonLinesFill size={30} /> </a></li>
         </ul>
 
 
