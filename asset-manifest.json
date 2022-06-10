@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d15895c6.css",
+    "main.js": "/static/js/main.63ce9be3.js",
+    "static/media/KevinMcCallResume.pdf": "/static/media/KevinMcCallResume.24a547ea4162557de921.pdf",
+    "static/media/Recipe.jpg": "/static/media/Recipe.f2d344e8e1e519c84605.jpg",
+    "static/media/yarn.jpg": "/static/media/yarn.96e7163a8517bf9d6afd.jpg",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/thaitacos.jpg": "/static/media/thaitacos.458340d6553b14e8ae75.jpg",
+    "static/media/logo.png": "/static/media/logo.59a0c078acacca0817d1.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/chatapp.jpg": "/static/media/chatapp.7b0d7e43f45fb094931a.jpg",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.d15895c6.css.map": "/static/css/main.d15895c6.css.map",
+    "main.63ce9be3.js.map": "/static/js/main.63ce9be3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d15895c6.css",
+    "static/js/main.63ce9be3.js"
+  ]
+}
