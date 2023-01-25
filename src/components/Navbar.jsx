@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png";
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
-import Resume from '../assets/KevinMcCallResume.pdf';
+import Resume from '../assets/KevinMcCallResume.docx';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
