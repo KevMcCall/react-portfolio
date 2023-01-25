@@ -16,7 +16,7 @@ const Home = () => {
     <Typewriter 
                  onInit={(typewriter) => {
                     typewriter
-                    .typeString("I'm a Front-End Developer")
+                    .typeString("I'm a Full-Stack Developer")
                     .start();
                  }}
                />
